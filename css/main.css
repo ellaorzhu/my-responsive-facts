@@ -1,1 +1,45 @@
-
+p{
+		font-size:1.6em;
+		font-family:"Times New Roman", Times, serif;}
+		
+		@media(min-width:1200px){
+		body
+		{background-color:pink;}
+		.fact2{display:none;}
+		.fact3{display:none;}
+		.fact4{display:none;}
+		.fact5{display:none;}
+		.fact6{display:none;}
+		}
+		@media(max-width:1199px){
+		body
+		{background-color:grey;}
+		.fact3{display:none;}
+		.fact4{display:none;}
+		.fact5{display:none;}
+		.fact6{display:none;}
+		@media(max-width:900px){
+		body
+		{background-color:yellow;}
+		.fact3{display:inline;}
+		
+		}
+		@media(max-width:750px){
+		body
+		{background-color:green;}
+		.fact4{display:inline;}
+		}
+		
+		@media(max-width:550px){
+		body
+		{background-color:blue;}
+		.fact5{display:inline;}
+		}
+		
+		@media(max-width:350px){
+		body
+		{background-color:purple;}
+		.fact6{display:inline;}
+		}
+		
+		
